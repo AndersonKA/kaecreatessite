@@ -1,7 +1,12 @@
 /***** BASE STYLES *****/
 
+@font-face {
+    font-family: "AR Bonnie";
+    src: url("./font/ARBONNIEcopy.ttf");
+}
+
 body {
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Raleway', sans-serif;
   }
 
   #about, #work, #contact {
@@ -35,7 +40,7 @@ header {
 
 header h1 {
   padding: 50px 0;
-  font-family: Lora;
+  font-family: AR Bonnie;
   font-weight: normal;
   font-size: 30px;
   color: #bbc085;
@@ -60,7 +65,7 @@ nav ul li a {
 header h2 {
     width: 1000px;
     clear: both;
-    font-family: Lora;
+    font-family: AR Bonnie;
     font-size: 72px;
     line-height: 72px;
     color: #9b9b9b;
@@ -77,12 +82,12 @@ header h2 span {
 }
 
 #about h2 {
-    font-family: Lora;
+    font-family: AR Bonnie;
     font-size: 36px;
 }
 
 #about p {
-    font-size: Source Sans Pro;
+    font-size: Raleway;
     color: #7f7f7f;
     line-height: 40px;
     padding-right: 50px;
@@ -110,7 +115,7 @@ header h2 span {
 }
 
 #work p {
-    font-family: Lora;
+    font-family: AR Bonnie;
     font-size: 18px;
     line-height: 18px;
     color: #2b2b2b;
@@ -139,25 +144,25 @@ header h2 span {
 }
 
 #contact h2 {
-    font-family: Lora;
+    font-family: AR Bonnie;
     font-size: 36px;
 }
 #email-header{
-    font-size: Source Sans Pro;
+    font-size: Raleway;
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 25px;
     margin: -30px 0 5px 0;
 }
 #socialmedia-header {
-    font-weight: Source Sans Pro;
-    font-size: 29px;
+    font-weight: lighter;
+    font-size: 25px;
     margin: 40px 0 0 0;
 }
 #contact a {
     text-decoration: none;
     color: #c49075;
     font-weight: lighter;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 #contact ul {
